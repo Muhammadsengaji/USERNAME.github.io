@@ -1,171 +1,888 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Muhammad Sengaji Aswar, S.E. - HR Officer Pertambangan Nikel</title>
-<meta name="description" content="Portofolio HR Officer: payroll, recruitment, HR administration. Pengalaman di pertambangan nikel, berdomisili di Morowali.">
-<style>
-:root{--bg:#f6f8fb;--card:#fff;--ink:#16202e;--mute:#566274;--line:#dfe5ee;--acc:#1f3864;--acc2:#2e5395;--soft:#e8eef8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1520;--card:#17202e;--ink:#e8edf5;--mute:#9aa7b9;--line:#26324a;--acc:#9db8ee;--acc2:#7fa1e6;--soft:#1c2940}}
-:root[data-theme="dark"]{--bg:#0f1520;--card:#17202e;--ink:#e8edf5;--mute:#9aa7b9;--line:#26324a;--acc:#9db8ee;--acc2:#7fa1e6;--soft:#1c2940}
-*,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:860px;margin:0 auto;padding:0 18px}
-header.hero{padding:44px 0 28px}
-.eyebrow{color:var(--acc2);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
-h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.15;margin:.3em 0 .2em;color:var(--acc)}
-.lead{color:var(--mute);margin:.2em 0 1.1em;max-width:62ch}
-.btns{display:flex;flex-wrap:wrap;gap:10px}
-.btn{display:inline-block;padding:11px 18px;border-radius:10px;font-weight:600;text-decoration:none;border:1px solid var(--acc);color:var(--acc);background:transparent}
-.btn.pri{background:var(--acc);color:var(--bg)}
-.btn:focus-visible,a:focus-visible{outline:3px solid var(--acc2);outline-offset:2px}
-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
-nav .wrap{display:flex;gap:18px;overflow-x:auto;padding-top:10px;padding-bottom:10px;white-space:nowrap}
-nav a{color:var(--mute);text-decoration:none;font-size:.92rem;font-weight:600}
-nav a:hover{color:var(--acc)}
-section{padding:30px 0 6px}
-h2{font-size:1.35rem;color:var(--acc);margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--line)}
-h3{margin:0 0 4px;font-size:1.08rem}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
-.stat b{display:block;font-size:1.7rem;color:var(--acc);line-height:1.1}
-.stat span{color:var(--mute);font-size:.88rem}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:14px}
-.meta{color:var(--mute);font-size:.9rem;margin:0 0 10px}
-dl{margin:0;display:grid;grid-template-columns:90px 1fr;gap:6px 12px}
-dt{font-weight:700;color:var(--acc2);font-size:.9rem}
-dd{margin:0}
-.tag{display:inline-block;background:var(--soft);color:var(--acc);border-radius:999px;padding:3px 11px;font-size:.84rem;margin:3px 4px 3px 0}
-.tl{border-left:3px solid var(--line);padding-left:16px;margin-left:4px}
-.tl .it{position:relative;margin-bottom:18px}
-.tl .it::before{content:"";position:absolute;left:-23px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--acc2)}
-.tl .when{color:var(--mute);font-size:.88rem}
-ul{padding-left:20px;margin:6px 0}
-footer{padding:30px 0 40px;color:var(--mute);font-size:.88rem}
-@media (max-width:520px){dl{grid-template-columns:1fr}dt{margin-top:6px}}
-.certs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin-top:12px}.cert{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}.cert button{display:block;width:100%;padding:0;border:0;background:var(--soft);cursor:zoom-in}.cert img{display:block;width:100%;height:auto}.cert figcaption{padding:10px 12px;font-size:.88rem}.cert figcaption span{display:block;color:var(--mute)}.cert figcaption em{display:block;color:var(--acc2);font-style:normal;font-size:.82rem}#lb{position:fixed;inset:0;background:rgba(0,0,0,.84);display:none;align-items:center;justify-content:center;padding:16px;z-index:20;cursor:zoom-out}#lb.on{display:flex}#lb img{max-width:100%;max-height:100%;border-radius:8px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Muhammad Sengaji Aswar, S.E. | HR Officer Pertambangan Nikel</title>
+  <meta name="description" content="Portofolio HR Officer Muhammad Sengaji Aswar, S.E. dengan fokus payroll, rekrutmen, HR administration, dan pengalaman di pertambangan nikel.">
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --bg-2: #eaf1ff;
+      --card: #ffffff;
+      --card-soft: #f7f9fc;
+      --ink: #14253d;
+      --muted: #607089;
+      --primary: #1d4a84;
+      --primary-2: #2f6bb3;
+      --line: #dfe9f6;
+      --success: #dfeef7;
+      --warning: #fff3d8;
+      --shadow: 0 20px 50px rgba(15, 42, 78, 0.08);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, var(--bg) 0%, #eef4fb 100%);
+    }
+
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      background: rgba(244, 247, 251, 0.88);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 72px;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--primary);
+      font-size: 0.82rem;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.93rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible { color: var(--primary); }
+
+    .hero {
+      padding: 54px 0 26px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(47, 107, 179, 0.08);
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      color: var(--ink);
+    }
+
+    .lead {
+      max-width: 62ch;
+      margin: 0;
+      font-size: 1.04rem;
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid transparent;
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(29, 74, 132, 0.12);
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: white;
+    }
+
+    .btn.secondary {
+      background: var(--card);
+      border-color: var(--line);
+      color: var(--ink);
+    }
+
+    .profile-card {
+      background: linear-gradient(180deg, #fff 0%, #f7f9fe 100%);
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .mini-label {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+
+    .profile-badge {
+      display: inline-flex;
+      width: 78px;
+      height: 78px;
+      border-radius: 20px;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, rgba(29,74,132,0.12), rgba(47,107,179,0.18));
+      color: var(--primary);
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .profile-card h2 {
+      margin: 0 0 6px;
+      font-size: 1.4rem;
+    }
+
+    .profile-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    .meta-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .meta-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .meta-item strong {
+      color: var(--ink);
+    }
+
+    section {
+      padding: 32px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 2vw, 2.1rem);
+      letter-spacing: -0.03em;
+    }
+
+    .section-head .note {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px 18px;
+      box-shadow: 0 10px 30px rgba(17, 36, 61, 0.04);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--primary);
+      line-height: 1.1;
+      letter-spacing: -0.05em;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 12px 26px rgba(20, 37, 61, 0.04);
+    }
+
+    .case-list {
+      display: grid;
+      gap: 18px;
+    }
+
+    .case-item {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    .case-item h3 {
+      margin: 0 0 8px;
+      font-size: 1.22rem;
+    }
+
+    .case-meta {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .case-item dl {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 8px 12px;
+    }
+
+    .case-item dt {
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .case-item dd {
+      margin: 0;
+      color: var(--ink);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(47, 107, 179, 0.08);
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .timeline {
+      position: relative;
+      border-left: 2px solid var(--line);
+      margin-left: 6px;
+      padding-left: 22px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .timeline-item {
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -29px;
+      top: 7px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--primary-2);
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 4px rgba(47, 107, 179, 0.1);
+    }
+
+    .timeline-item h3 {
+      margin: 0 0 4px;
+      font-size: 1.08rem;
+    }
+
+    .timeline-item .when {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+    }
+
+    .timeline-item ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--ink);
+    }
+
+    .skills-wrap {
+      display: grid;
+      gap: 18px;
+    }
+
+    .skill-group {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 20px 20px 16px;
+    }
+
+    .skill-group strong {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--primary);
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .certificate-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .cert {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 12px 24px rgba(15, 42, 78, 0.03);
+    }
+
+    .cert-visual {
+      display: grid;
+      place-items: center;
+      min-height: 170px;
+      padding: 18px;
+      background: linear-gradient(135deg, rgba(29,74,132,0.1), rgba(47,107,179,0.2));
+      color: var(--primary);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .cert-body {
+      padding: 16px 15px 18px;
+    }
+
+    .cert-body h4 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+    }
+
+    .cert-meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin: 0 0 6px;
+    }
+
+    .cert-note {
+      color: var(--primary-2);
+      font-size: 0.76rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .contact-box {
+      background: linear-gradient(135deg, var(--primary), #3d7ec8);
+      color: white;
+      border-radius: 26px;
+      padding: 28px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      box-shadow: 0 22px 44px rgba(29, 74, 132, 0.24);
+    }
+
+    .contact-box h2 {
+      margin: 0 0 8px;
+      color: white;
+      font-size: clamp(1.7rem, 3vw, 2.4rem);
+    }
+
+    .contact-box p {
+      margin: 0;
+      color: rgba(255,255,255,0.82);
+      max-width: 62ch;
+    }
+
+    .contact-box .actions {
+      margin: 0;
+    }
+
+    .contact-box .btn.secondary {
+      background: rgba(255,255,255,0.12);
+      color: white;
+      border-color: rgba(255,255,255,0.3);
+    }
+
+    footer {
+      padding: 28px 0 50px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .certificate-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 14px 0;
+      }
+
+      .nav-links {
+        justify-content: center;
+      }
+
+      .stats,
+      .certificate-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .case-item dl {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .contact-box {
+        padding: 22px 18px;
+      }
+    }
+  </style>
 </head>
 <body>
-<header class="hero"><div class="wrap">
-  <div class="eyebrow">HR Officer | Pertambangan Nikel</div>
-  <h1>Muhammad Sengaji Aswar, S.E.</h1>
-  <p class="lead">Lebih dari 2 tahun mengelola payroll, rekrutmen, dan administrasi HR di industri pertambangan, termasuk penempatan di PT ANTAM Tbk, Unit Bisnis Pertambangan Nikel (UBPN) Sulawesi Tenggara. Berdomisili di Kabupaten Morowali, Sulawesi Tengah.</p>
-  <div class="btns">
-    <a class="btn pri" href="CV_Muhammad_Sengaji_Aswar_HR_Officer.pdf" download>Unduh CV (PDF)</a>
-    <a class="btn" href="https://wa.me/6281342307699">WhatsApp</a>
-    <a class="btn" href="mailto:muhammadsengaji.a@gmail.com">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/muhammad-sengaji-aswar">LinkedIn</a>
-  </div>
-</div></header>
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="brand">MSA</div>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#angka">Angka</a>
+        <a href="#profil">Profil</a>
+        <a href="#kasus">Studi Kasus</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
 
-<nav aria-label="Navigasi bagian"><div class="wrap">
-  <a href="#angka">Angka</a><a href="#kasus">Studi Kasus</a><a href="#pengalaman">Pengalaman</a><a href="#keahlian">Keahlian</a><a href="#sertifikasi">Sertifikasi</a><a href="#kontak">Kontak</a>
-</div></nav>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">HR Officer | Pertambangan Nikel</span>
+          <h1>Muhammad Sengaji Aswar, S.E.</h1>
+          <p class="lead">
+            Lebih dari 2 tahun mengelola payroll, rekrutmen, dan administrasi HR di industri pertambangan,
+            termasuk pengalaman di PT ANTAM Tbk, Unit Bisnis Pertambangan Nikel (UBPN) Sulawesi Tenggara.
+            Berdomisili di Kabupaten Morowali, Sulawesi Tengah.
+          </p>
 
-<main class="wrap">
-<section id="angka">
-  <h2>Hasil dalam Angka</h2>
-  <div class="stats">
-    <div class="stat"><b>133</b><span>karyawan dikelola payroll dan administrasinya</span></div>
-    <div class="stat"><b>21 → 14</b><span>hari time-to-hire (turun 33%)</span></div>
-    <div class="stat"><b>50%</b><span>peningkatan efisiensi proses payroll</span></div>
-    <div class="stat"><b>20-50</b><span>kandidat disaring per minggu</span></div>
-  </div>
-</section>
+          <div class="actions">
+            <a class="btn primary" href="CV_Muhammad_Sengaji_Aswar_HR_Officer.pdf" download>Unduh CV</a>
+            <a class="btn secondary" href="https://wa.me/6281342307699" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a class="btn secondary" href="mailto:muhammadsengaji.a@gmail.com">Email</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/muhammad-sengaji-aswar" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
 
-<!-- STUDI KASUS: salin satu blok <article class="card"> untuk menambah. Hanya tulis hasil yang bisa Anda buktikan; jangan memuat data karyawan atau dokumen internal perusahaan. -->
-<section id="kasus">
-  <h2>Studi Kasus</h2>
+        <aside class="profile-card" id="profil">
+          <div class="mini-label">Profile Summary</div>
+          <div class="profile-badge">MS</div>
+          <h2>HR, Payroll &amp; Recruitment</h2>
+          <p>Fokus pada administrasi HR, validasi data payroll, dan proses rekrutmen end-to-end di lingkungan operasional tambang.</p>
 
-  <article class="card">
-    <h3>1. Payroll 133 karyawan di lingkungan tambang nikel</h3>
-    <p class="meta">PT Andalan Berjaya Nusantara | Penempatan PT ANTAM Tbk, UBPN Sulawesi Tenggara | Jan 2024 - Agu 2025</p>
-    <dl>
-      <dt>Konteks</dt><dd>Mengelola payroll 133 karyawan: gaji, lembur, BPJS, dan THR.</dd>
-      <dt>Tindakan</dt><dd>Memvalidasi data absensi sebagai dasar perhitungan, menyusun laporan HR bulanan (payroll, attendance, manpower), dan membangun sistem payroll berbasis Excel.</dd>
-      <dt>Hasil</dt><dd>Efisiensi proses payroll meningkat hingga 50%.</dd>
-      <dt>Alat</dt><dd><span class="tag">Microsoft Excel</span><span class="tag">Attendance Management</span><span class="tag">HR Reporting</span></dd>
-    </dl>
-  </article>
+          <div class="meta-list">
+            <div class="meta-item"><span>Lokasi</span><strong>Morowali, Sulawesi Tengah</strong></div>
+            <div class="meta-item"><span>Pengalaman</span><strong>2+ tahun</strong></div>
+            <div class="meta-item"><span>Bidang</span><strong>HR Generalist</strong></div>
+            <div class="meta-item"><span>Kompetensi</span><strong>Payroll, Rekrutmen, Data HR</strong></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-  <article class="card">
-    <h3>2. Time-to-hire turun dari 21 menjadi 14 hari</h3>
-    <p class="meta">PT Irena Binajasa Abadikarya | Admin Recruitment (project-based) | Des 2025 - Feb 2026</p>
-    <dl>
-      <dt>Konteks</dt><dd>Rekrutmen end-to-end sesuai manpower planning, dengan koordinasi bersama user terkait job requirement.</dd>
-      <dt>Tindakan</dt><dd>Menyaring 20-50 kandidat per minggu, mengelola database kandidat dan recruitment tracker, serta mengoptimalkan proses dari sourcing sampai onboarding.</dd>
-      <dt>Hasil</dt><dd>Time-to-hire turun 33%, dari 21 hari menjadi 14 hari.</dd>
-      <dt>Alat</dt><dd><span class="tag">Recruitment Tracking</span><span class="tag">Pipeline Reporting</span></dd>
-    </dl>
-  </article>
+    <section id="angka">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Hasil dalam Angka</h2>
+        </div>
 
-  <article class="card">
-    <h3>3. Rekonsiliasi data produksi hauling untuk payroll dan laporan</h3>
-    <p class="meta">PT Bintang Multi Sinergi | Admin Produksi &amp; Payroll | Mar 2026 - Jul 2026</p>
-    <dl>
-      <dt>Konteks</dt><dd>Data operasional Dump Truck harian (unit beroperasi, HM, ritase) menjadi dasar laporan produksi dan payroll.</dd>
-      <dt>Tindakan</dt><dd>Memvalidasi HM, ritase, jumlah unit, dan kehadiran sebelum dipakai; merekonsiliasi dengan laporan operasional; menyusun Daily Production Report dan estimasi pendapatan harian.</dd>
-      <dt>Hasil</dt><dd>Laporan produksi dan payroll disusun dari data yang sudah divalidasi.</dd>
-      <dt>Alat</dt><dd><span class="tag">Microsoft Excel</span><span class="tag">Data Validation</span><span class="tag">Daily Production Report</span></dd>
-    </dl>
-  </article>
-</section>
+        <div class="stats">
+          <div class="stat">
+            <strong>133</strong>
+            <span>karyawan dikelola payroll dan administrasinya</span>
+          </div>
+          <div class="stat">
+            <strong>21 → 14</strong>
+            <span>hari time-to-hire, turun 33%</span>
+          </div>
+          <div class="stat">
+            <strong>50%</strong>
+            <span>peningkatan efisiensi proses payroll</span>
+          </div>
+          <div class="stat">
+            <strong>20–50</strong>
+            <span>kandidat disaring per minggu</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="pengalaman">
-  <h2>Pengalaman Kerja</h2>
-  <div class="tl">
-    <!-- TAMBAH PENGALAMAN BARU: salin satu blok <div class="it"> ... </div> di bawah, tempel PALING ATAS di sini, lalu ganti teksnya. -->
-    <div class="it"><h3>Admin Produksi &amp; Payroll</h3><div class="when">PT Bintang Multi Sinergi | Maret 2026 - Juli 2026</div>
-      <ul><li>Payroll berbasis kehadiran dan jam kerja.</li><li>Rekonsiliasi HM, ritase, dan unit; laporan produksi harian.</li></ul></div>
-    <div class="it"><h3>Admin Recruitment (Project-Based)</h3><div class="when">PT Irena Binajasa Abadikarya | Desember 2025 - Februari 2026</div>
-      <ul><li>Rekrutmen end-to-end, time-to-hire turun 33%.</li><li>Database kandidat, laporan rekrutmen, dan pipeline.</li></ul></div>
-    <div class="it"><h3>HR Administration &amp; General Affairs Support</h3><div class="when">PT Andalan Berjaya Nusantara, penempatan PT ANTAM Tbk UBPN Sulawesi Tenggara | Januari 2024 - Agustus 2025</div>
-      <ul><li>Payroll 133 karyawan, administrasi kontrak, database, dan personal file.</li><li>Billing validation dari timesheet dan job order; general affairs di site.</li></ul></div>
-  </div>
-</section>
+    <section id="kasus">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Studi Kasus</h2>
+        </div>
 
-<section id="keahlian">
-  <h2>Keahlian</h2>
-  <p><b>Human Resources</b><br><span class="tag">Payroll Processing</span><span class="tag">Recruitment &amp; Selection</span><span class="tag">Onboarding</span><span class="tag">HR Administration</span><span class="tag">Employee Database</span><span class="tag">Attendance Management</span><span class="tag">Document Control</span></p>
-  <p><b>Operasional Pertambangan</b><br><span class="tag">Mining Operations Administration</span><span class="tag">Dump Truck Monitoring</span><span class="tag">HM &amp; Ritase Monitoring</span><span class="tag">Production &amp; Revenue Calculation</span><span class="tag">Billing Validation</span></p>
-  <p><b>Data &amp; Alat</b><br><span class="tag">Microsoft Excel (Pivot Table, VLOOKUP, IF)</span><span class="tag">Data Validation</span><span class="tag">HR Reporting</span><span class="tag">Word</span><span class="tag">PowerPoint</span></p>
-</section>
+        <div class="case-list">
+          <article class="case-item">
+            <h3>Payroll 133 karyawan di lingkungan tambang nikel</h3>
+            <p class="case-meta">PT Andalan Berjaya Nusantara | Penempatan PT ANTAM Tbk, UBPN Sulawesi Tenggara | Jan 2024 - Agu 2025</p>
+            <dl>
+              <dt>Konteks</dt>
+              <dd>Mengelola payroll 133 karyawan mencakup gaji, lembur, BPJS, dan THR.</dd>
+              <dt>Tindakan</dt>
+              <dd>Memvalidasi data absensi, menyusun laporan HR bulanan, dan membangun sistem payroll berbasis Excel.</dd>
+              <dt>Hasil</dt>
+              <dd>Efisiensi proses payroll meningkat hingga 50%.</dd>
+              <dt>Alat</dt>
+              <dd>
+                <span class="tags">
+                  <span class="tag">Microsoft Excel</span>
+                  <span class="tag">Attendance Management</span>
+                  <span class="tag">HR Reporting</span>
+                </span>
+              </dd>
+            </dl>
+          </article>
 
-<section id="sertifikasi">
-  <h2>Pendidikan &amp; Sertifikasi</h2>
-  <div class="card">
-    <h3>Sarjana Ekonomi (S.E.), Ekonomi Islam</h3>
-    <p class="meta">UIN Alauddin Makassar | Lulus 2023</p>
-  </div>
-  <h3>Sertifikat (ketuk untuk memperbesar)</h3>
-  <div class="certs">
-<!-- TAMBAH SERTIFIKAT: unggah gambarnya (JPG) ke repositori, salin satu blok <figure class="cert"> ... </figure>, ganti nama file gambar dan teksnya. --><figure class="cert"><button type="button" aria-label="Perbesar sertifikat Human Resources: Payroll"><img src="sertifikat-payroll.jpg" alt="Sertifikat Human Resources: Payroll" loading="lazy"></button><figcaption><b>Human Resources: Payroll</b><span>LinkedIn Learning | 14 Mar 2026 | 34 menit</span><em>Diakui SHRM (0,75 PDC) dan HRCI (0,50 kredit)</em></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat Excel: VLOOKUP dan XLOOKUP untuk Pemula"><img src="sertifikat-excel-vlookup-xlookup.jpg" alt="Sertifikat Excel: VLOOKUP dan XLOOKUP untuk Pemula" loading="lazy"></button><figcaption><b>Excel: VLOOKUP dan XLOOKUP untuk Pemula</b><span>LinkedIn Learning | 12 Mar 2026 | 19 menit</span></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat Excel: PivotTables untuk Pemula"><img src="sertifikat-excel-pivottable.jpg" alt="Sertifikat Excel: PivotTables untuk Pemula" loading="lazy"></button><figcaption><b>Excel: PivotTables untuk Pemula</b><span>LinkedIn Learning | 26 Mar 2026 | 23 menit</span></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat Compensation and Benefits Fundamental"><img src="sertifikat-compensation-benefits.jpg" alt="Sertifikat Compensation and Benefits Fundamental" loading="lazy"></button><figcaption><b>Compensation and Benefits Fundamental</b><span>MySkill | 25 Apr 2026 | 1 jam</span></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat Talent Acquisition"><img src="sertifikat-talent-acquisition.jpg" alt="Sertifikat Talent Acquisition" loading="lazy"></button><figcaption><b>Talent Acquisition</b><span>MySkill | 7 Mei 2026 | 1 jam</span></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat SQL Introduction for Data Analysis"><img src="sertifikat-sql.jpg" alt="Sertifikat SQL Introduction for Data Analysis" loading="lazy"></button><figcaption><b>SQL Introduction for Data Analysis</b><span>MySkill Short Class | 1 Apr 2026</span></figcaption></figure>
-<figure class="cert"><button type="button" aria-label="Perbesar sertifikat Event Online - Human Resources"><img src="sertifikat-dibimbing-hr-event.jpg" alt="Sertifikat Event Online - Human Resources" loading="lazy"></button><figcaption><b>Event Online - Human Resources</b><span>Dibimbing | 31 Mar 2026</span><em>Sertifikat partisipasi</em></figcaption></figure></div>
-  <p style="margin-top:12px"><a class="btn" href="Lampiran_Sertifikat_Muhammad_Sengaji_Aswar.pdf" download>Unduh semua sertifikat (PDF)</a></p>
-  <p class="meta" style="margin-top:14px">Pelatihan lain (sertifikat belum dilampirkan): HR Foundations: Core Human Resources - LinkedIn Learning (Mar 2026, 54 menit); Excel &amp; AI for Administration HR - Jobstreet; Data Analytics Fundamentals - Digital Talent Scholarship; Organization Design &amp; Goal Setting - MySkill.</p>
-</section>
+          <article class="case-item">
+            <h3>Time-to-hire turun dari 21 menjadi 14 hari</h3>
+            <p class="case-meta">PT Irena Binajasa Abadikarya | Admin Recruitment (project-based) | Des 2025 - Feb 2026</p>
+            <dl>
+              <dt>Konteks</dt>
+              <dd>Rekrutmen end-to-end sesuai manpower planning dengan koordinasi kebutuhan posisi dan user.</dd>
+              <dt>Tindakan</dt>
+              <dd>Menyaring 20-50 kandidat per minggu, mengelola database kandidat, dan mempercepat proses sourcing hingga onboarding.</dd>
+              <dt>Hasil</dt>
+              <dd>Time-to-hire turun 33%, dari 21 hari menjadi 14 hari.</dd>
+              <dt>Alat</dt>
+              <dd>
+                <span class="tags">
+                  <span class="tag">Recruitment Tracking</span>
+                  <span class="tag">Pipeline Reporting</span>
+                </span>
+              </dd>
+            </dl>
+          </article>
 
-<section id="kontak">
-  <h2>Hubungi Saya</h2>
-  <p>Terbuka untuk peran HR Officer, Payroll Officer, Recruitment Officer, atau HRGA di perusahaan pertambangan nikel dan penempatan di seluruh Indonesia.</p>
-  <div class="btns">
-    <a class="btn pri" href="https://wa.me/6281342307699">WhatsApp 0813-4230-7699</a>
-    <a class="btn" href="mailto:muhammadsengaji.a@gmail.com">muhammadsengaji.a@gmail.com</a>
-    <a class="btn" href="https://www.linkedin.com/in/muhammad-sengaji-aswar">LinkedIn</a>
-  </div>
-</section>
-</main>
+          <article class="case-item">
+            <h3>Rekonsiliasi data produksi hauling untuk payroll dan laporan</h3>
+            <p class="case-meta">PT Bintang Multi Sinergi | Admin Produksi &amp; Payroll | Mar 2026 - Jul 2026</p>
+            <dl>
+              <dt>Konteks</dt>
+              <dd>Data operasional dump truck harian menjadi dasar laporan produksi dan payroll karyawan.</dd>
+              <dt>Tindakan</dt>
+              <dd>Memvalidasi HM, ritase, jumlah unit, dan kehadiran sebelum dipakai serta merekonsiliasi dengan laporan operasional.</dd>
+              <dt>Hasil</dt>
+              <dd>Laporan produksi dan payroll disusun dari data yang telah divalidasi.</dd>
+              <dt>Alat</dt>
+              <dd>
+                <span class="tags">
+                  <span class="tag">Microsoft Excel</span>
+                  <span class="tag">Data Validation</span>
+                  <span class="tag">Daily Production Report</span>
+                </span>
+              </dd>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<footer><div class="wrap">Kab. Morowali, Sulawesi Tengah | Muhammad Sengaji Aswar, S.E.</div></footer>
-<div id="lb" role="dialog" aria-label="Pratinjau sertifikat"><img alt=""></div>
-<script>(function(){var lb=document.getElementById("lb"),im=lb.querySelector("img");document.querySelectorAll(".cert button").forEach(function(b){b.addEventListener("click",function(){var s=b.querySelector("img");im.src=s.src;im.alt=s.alt;lb.classList.add("on")})});function c(){lb.classList.remove("on")}lb.addEventListener("click",c);document.addEventListener("keydown",function(e){if(e.key==="Escape")c()})})();</script>
+    <section id="pengalaman">
+      <div class="wrap grid-2">
+        <div>
+          <div class="section-head">
+            <h2>Pengalaman Kerja</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>Admin Produksi &amp; Payroll</h3>
+              <div class="when">PT Bintang Multi Sinergi | Maret 2026 - Juli 2026</div>
+              <ul>
+                <li>Payroll berbasis kehadiran dan jam kerja.</li>
+                <li>Rekonsiliasi HM, ritase, unit, dan laporan produksi harian.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <h3>Admin Recruitment (Project-Based)</h3>
+              <div class="when">PT Irena Binajasa Abadikarya | Desember 2025 - Februari 2026</div>
+              <ul>
+                <li>Rekrutmen end-to-end dengan time-to-hire turun 33%.</li>
+                <li>Database kandidat, recruitment tracker, dan pipeline recruiting.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <h3>HR Administration &amp; General Affairs Support</h3>
+              <div class="when">PT Andalan Berjaya Nusantara, penempatan PT ANTAM Tbk UBPN Sulawesi Tenggara | Januari 2024 - Agustus 2025</div>
+              <ul>
+                <li>Payroll 133 karyawan serta administrasi kontrak dan personal file.</li>
+                <li>Validasi billing dari timesheet dan job order; support general affairs site.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-head">
+            <h2>Ringkasan Profesional</h2>
+          </div>
+          <div class="card">
+            <p>Seorang HR profesional yang berfokus pada efisiensi proses administrasi, kontrol data, dan supporting operasional di industri pertambangan. Saya terbiasa bekerja dengan data tenaga kerja, validasi absensi, koordinasi payroll, serta proses rekrutmen yang terukur.</p>
+            <div class="tags">
+              <span class="tag">Payroll Processing</span>
+              <span class="tag">Rekrutmen</span>
+              <span class="tag">HR Reporting</span>
+              <span class="tag">Data Validation</span>
+              <span class="tag">Mining Operations Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Keahlian</h2>
+        </div>
+
+        <div class="skills-wrap">
+          <div class="skill-group">
+            <strong>Human Resources</strong>
+            <div class="tags">
+              <span class="tag">Payroll Processing</span>
+              <span class="tag">Recruitment &amp; Selection</span>
+              <span class="tag">Onboarding</span>
+              <span class="tag">HR Administration</span>
+              <span class="tag">Employee Database</span>
+              <span class="tag">Attendance Management</span>
+              <span class="tag">Document Control</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <strong>Operasional Pertambangan</strong>
+            <div class="tags">
+              <span class="tag">Mining Operations Administration</span>
+              <span class="tag">Dump Truck Monitoring</span>
+              <span class="tag">HM &amp; Ritase Monitoring</span>
+              <span class="tag">Production &amp; Revenue Calculation</span>
+              <span class="tag">Billing Validation</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <strong>Data &amp; Alat</strong>
+            <div class="tags">
+              <span class="tag">Microsoft Excel</span>
+              <span class="tag">Pivot Table</span>
+              <span class="tag">VLOOKUP</span>
+              <span class="tag">Data Validation</span>
+              <span class="tag">HR Reporting</span>
+              <span class="tag">Word</span>
+              <span class="tag">PowerPoint</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sertifikasi">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Pendidikan &amp; Sertifikasi</h2>
+        </div>
+
+        <div class="card" style="margin-bottom: 18px;">
+          <h3 style="margin: 0 0 4px;">Sarjana Ekonomi (S.E.), Ekonomi Islam</h3>
+          <p class="case-meta" style="margin: 0;">UIN Alauddin Makassar | Lulus 2023</p>
+        </div>
+
+        <div class="certificate-grid">
+          <article class="cert">
+            <div class="cert-visual">HR<br>Payroll</div>
+            <div class="cert-body">
+              <h4>Human Resources: Payroll</h4>
+              <p class="cert-meta">LinkedIn Learning | 14 Mar 2026 | 34 menit</p>
+              <p class="cert-note">SHRM / HRCI</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <div class="cert-visual">Excel<br>VLOOKUP</div>
+            <div class="cert-body">
+              <h4>Excel: VLOOKUP &amp; XLOOKUP</h4>
+              <p class="cert-meta">LinkedIn Learning | 12 Mar 2026 | 19 menit</p>
+              <p class="cert-note">Pemula</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <div class="cert-visual">Pivot<br>Tables</div>
+            <div class="cert-body">
+              <h4>Excel: PivotTables untuk Pemula</h4>
+              <p class="cert-meta">LinkedIn Learning | 26 Mar 2026 | 23 menit</p>
+              <p class="cert-note">Data Analysis</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <div class="cert-visual">Comp &amp;<br>Benefits</div>
+            <div class="cert-body">
+              <h4>Compensation &amp; Benefits Fundamental</h4>
+              <p class="cert-meta">MySkill | 25 Apr 2026 | 1 jam</p>
+              <p class="cert-note">Fundamental</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <div class="cert-visual">Talent<br>Acquisition</div>
+            <div class="cert-body">
+              <h4>Talent Acquisition</h4>
+              <p class="cert-meta">MySkill | 7 Mei 2026 | 1 jam</p>
+              <p class="cert-note">Recruitment</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <div class="cert-visual">SQL<br>Analysis</div>
+            <div class="cert-body">
+              <h4>SQL Introduction for Data Analysis</h4>
+              <p class="cert-meta">MySkill Short Class | 1 Apr 2026</p>
+              <p class="cert-note">Data Skills</p>
+            </div>
+          </article>
+        </div>
+
+        <p style="margin-top: 18px; color: var(--muted);">
+          Pelatihan lain: HR Foundations: Core Human Resources - LinkedIn Learning; Excel &amp; AI for Administration HR - Jobstreet; Data Analytics Fundamentals - Digital Talent Scholarship; Organization Design &amp; Goal Setting - MySkill.
+        </p>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <h2>Hubungi Saya</h2>
+            <p>Terbuka untuk peran HR Officer, Payroll Officer, Recruitment Officer, atau HRGA di perusahaan pertambangan nikel serta penempatan di seluruh Indonesia.</p>
+          </div>
+
+          <div class="actions">
+            <a class="btn primary" href="https://wa.me/6281342307699" target="_blank" rel="noreferrer">WhatsApp 0813-4230-7699</a>
+            <a class="btn secondary" href="mailto:muhammadsengaji.a@gmail.com">Email</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/muhammad-sengaji-aswar" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Kab. Morowali, Sulawesi Tengah | Muhammad Sengaji Aswar, S.E.</div>
+  </footer>
 </body>
 </html>
